@@ -6,7 +6,7 @@
 
 module.exports = (robot) ->
 
-   PICKUPLINES = [
+  PICKUPLINES = [
     "Your legs must be tired because you\'ve been running through my mind all night.",
     "Was your father a thief? \'Cause someone stole the stars from the sky and put them in your eyes.",
     "Do you have a pencil? Cause I want to erase your past and write our future.",
@@ -176,7 +176,6 @@ module.exports = (robot) ->
     "It\'s a good thing I wore gloves today. Otherwise you\'d be too hot to handle.",
     "Hello. Cupid called. He says to tell you that he needs my heart back."
   ]
-
 
   robot.hear /pickmeup/i, (res) ->
       res.send res.random PICKUPLINES
