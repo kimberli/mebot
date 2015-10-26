@@ -6,5 +6,6 @@
   "hubot-redis-brain",
   "hubot-remind-her",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-wolfram"
 ]
